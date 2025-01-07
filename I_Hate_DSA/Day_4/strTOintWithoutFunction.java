@@ -7,16 +7,16 @@ public class strTOintWithoutFunction {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the string that only contain digit: ");
         String str = input.nextLine();
-        Character result = '0';
-        String value = "";
+        int sum = 0;
+        int value = 0;
         //1235
 
         for(int i = 0; i<str.length(); i++){
-            System.out.println(str.charAt(i));
-            System.out.println(str.charAt(i)-result);
-            result = result*10+str.charAt(i);
-        }
+            sum = str.charAt(i)-'0';
+            value = value*10+sum;
 
+        }
+System.out.println(value);
         
     }
 }

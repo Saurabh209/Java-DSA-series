@@ -194,25 +194,34 @@ Output: true
 14. Convert string to integer without built-in functions
 Input: "12345"
 Output: 12345
+
 15. Remove duplicate characters from string
 Input: "programming"
 Output: "progamin"
+
 16. Find first repeating character in a string
 Input: "hello"
 Output: 'l'
 17. Check if string is numeric
 Input: "12.34"
 Output: true
+
 18. Convert integer to string without built-in functions
 Input: 12345
 Output: "12345"
+
 19. Count frequency of digits in a number
 Input: 11223344
 Output: {1: 2, 2: 2, 3: 2, 4: 2}
+
 20. Check if number is palindrome
 Input: 12321
 Output: true
+
+
+
 Part 2: Array Transformations (21-40)
+
 Basic Transformations
 21. Shift all zeros to end of array
 Input: [1, 0, 2, 0, 3]
