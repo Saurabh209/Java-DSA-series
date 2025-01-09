@@ -226,18 +226,23 @@ Basic Transformations
 21. Shift all zeros to end of array
 Input: [1, 0, 2, 0, 3]
 Output: [1, 2, 3, 0, 0]
+
 22. Move all negative numbers to beginning
 Input: [1, -3, 2, -5, 4]
 Output: [-3, -5, 1, 2, 4]
+
 23. Separate odd and even numbers
 Input: [1, 2, 3, 4, 5]
 Output: [2, 4, 1, 3, 5]
+
 24. Replace each element with its square
 Input: [1, 2, 3, 4]
 Output: [1, 4, 9, 16]
+
 25. Replace elements with nearest prime number
 Input: [4, 6, 8, 9]
 Output: [3, 5, 7, 11]
+
 26. Cyclically rotate array by one position
 Input: [1, 2, 3, 4, 5]
 Output: [5, 1, 2, 3, 4]
@@ -284,6 +289,8 @@ Output: [3, 2, 1, 5, 4]
 40. Rearrange array with even positioned greater than odd
 Input: [1, 2, 3, 4]
 Output: [1, 4, 2, 3]
+
+
 Part 3: String Manipulations (41-60)
 Basic String Operations
 41. Remove characters from first string present in second string
@@ -347,6 +354,8 @@ Output: "hello "
 60. Convert string to alternating case
 Input: "hello"
 Output: "hElLo"
+
+
 Part 4: Search and Count Problems (61-80)
 Array Searching
 61. Find element that appears once in array
